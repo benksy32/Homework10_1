@@ -29,6 +29,6 @@ print("Filtered by state ('EXECUTED'):")
 for i in filtered_data_default:
     print(i)
 
-print("\nSorted by date (descending):")
+print("\nSorted by date (True):")
 for i in filtered_data_canceled:
     print(i)
